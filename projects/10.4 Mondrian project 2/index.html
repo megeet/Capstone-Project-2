@@ -1,0 +1,250 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mondrian project 2 </title>
+<style>
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+
+}
+.container{
+    width: 1100px;
+    height: 520px;
+    display: grid;
+    background-color: black;
+    
+    grid-template-columns: 40px 130px 125px 75px 75px 128px 72px 76px 130px 128px 42px;
+    grid-template-rows: 64px 40px 65px 50px 70px 70px 45px 65px ;
+    padding: 7px 1px 5px 7px;
+    gap: 7px;
+   
+}
+
+
+.white1{
+    background-color: white;
+    grid-area: 1 / 1 / 4 / 2;
+}
+
+.red1{
+    grid-area: 1 / 2 / 5 / 4 ;
+    background-color: red;
+}
+
+.yellow1{
+    grid-area: 1 / 4 / 3 / 6 ;
+    background-color: yellow;
+
+}
+
+.white2{
+    background-color: white;
+    grid-area: 1 / 6 / 3 / 7 ;
+}
+
+.blue1{
+    background-color: blue;
+    grid-area: 1 / 7 / 2 / 10;
+}
+
+.white3{
+    background-color: white;
+    
+    grid-area: 1 / 10 / 3 / 11 ;
+}
+
+.white4{
+    background-color: white;
+    grid-area: 1 / 11 / 7 / 12;
+}
+
+.yellow2{
+    background-color: yellow;
+    grid-area: 4 / 1 / 9 / 2 ;
+}
+
+.white5{
+    background-color: white;
+    grid-area: 3 / 4 / 5 / 5;    
+}
+
+.white6{
+    background-color: white;
+    grid-area: 3 / 5 / 5 / 6;
+}
+
+.blue2{
+    background-color: blue;
+    grid-area: 3 / 6 / 5 / 7;
+}
+
+.red2{
+    background-color: red;
+    grid-area: 2 / 7 / 4 / 9;
+}  
+
+.black1{
+    background-color: gray;
+    grid-area:  2/ 9 / 3 /10 ;
+}
+.white7{
+    background-color: white;
+    grid-area:  3/ 9 / 4 /10 ;
+}
+
+.white8{
+    background-color: white;
+    grid-area:  4 / 9 / 5 / 10 ;
+}  
+.white9{
+    background-color: white;
+    grid-area:  4/ 7/ 5 / 9;
+} 
+
+.yellow3{
+    background-color: yellow;
+    grid-area: 3 / 10 / 5 / 11;
+}
+
+.black2{
+    background-color: gray;
+    grid-area: 5 / 2 / 7 / 3 ;
+}
+
+.white10{
+    background-color: white;
+    grid-area: 5/ 3/ 6/ 4 ;    
+}
+
+.white11{
+    background-color: white;
+    grid-area: 5 / 4/ 6/ 6 ;
+}
+
+.white12{
+    background-color: white;
+    grid-area: 5/ 6/ 7/ 7 ;
+}
+
+.blue3{
+    background-color: blue;
+    grid-area: 6 / 4 / 8 / 6 ;
+}
+
+.white13{
+    background-color: white;
+    grid-area: 7 / 6 /8 / 7  ;
+}
+
+.white14{
+    background-color: white;
+    grid-area: 5 / 7 / 7 / 8 ;
+}
+
+.red3{
+    background-color: red;
+    grid-area: 5 / 8 / 7 / 8 ;
+}
+
+.blue4{
+    background-color: blue;
+    grid-area: 5 / 9 / 9 / 11 ;
+}
+
+.red4{
+    background-color: red;
+    grid-area: 6 / 11 / 9 / 12 ;
+    border-top: 7px solid black;
+}
+
+.white15{
+    background-color: white;
+    grid-area: 7 / 2 / 9 / 3 ;
+}
+
+.black3{
+    background-color: gray;
+    grid-area: 7 / 3 / 8 / 4 ;
+}
+
+.red5{
+    background-color: red;
+    grid-area: 8 / 3 / 9 / 6 ;
+}        
+
+.white16{
+    background-color: white;
+    grid-area: 7 / 6 / 9 / 7 ;
+}
+
+.yellow4{
+    background-color: yellow;
+    /*grid-area: 7 / 7 / 9 / 9 ;*/
+    grid-row: span 2;
+    grid-column: span 2;
+}
+
+.white17{
+    background-color: white;
+    grid-area: 6 / 3 / 7 / 4 ;
+    }  
+
+</style>
+</head>
+
+<body>
+    <div class="container">
+        
+        <div class="item white1"></div> 
+        <div class="item red1"></div>
+        <div class="item yellow1"></div>
+        <div class="item white2"></div>
+        <div class="item blue1"></div>
+        <div class="item white3"></div>
+        <div class="item white4"></div>
+
+        <div class="item yellow2"></div>
+        <div class="item white5"></div>
+        <div class="item white6"></div>
+        <div class="item blue2"></div>
+        <div class="item red2"></div>
+        <div class="item white7"></div>
+        <div class="item black1"></div>
+        <div class="item white8"></div>
+        <div class="item white9"></div>
+        <div class="item yellow3"></div>
+
+        <div class="item black2"></div>
+        <div class="item white10"></div>
+        <div class="item white11"></div>
+        <div class="item white12"></div>
+        <div class="item blue3"></div>
+        <div class="item white13"></div>
+        <div class="item white14"></div>
+        <div class="item red3"></div>
+        <div class="item blue4"></div>
+        <div class="item red4"></div>
+
+        <div class="item white15"></div>
+        <div class="item black3"></div>
+        <div class="item red5"></div>
+        <div class="item white16"></div>
+        <div class="item yellow4"></div>
+
+        <div class="item white17"></div>        
+
+    
+    <div class="item"></div>    
+        
+    </div>
+</body>
+
+</html>
